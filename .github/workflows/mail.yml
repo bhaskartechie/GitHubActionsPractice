@@ -17,7 +17,7 @@ jobs:
       with:
         python-version: 3.x
     - name: List directory contents
-      run: ls -l
+      run: ls -la
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
