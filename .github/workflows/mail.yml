@@ -24,7 +24,7 @@ jobs:
         pip install -r demo_github_actions/requirements.txt
 
     - name: Run tests
-      run: python manage.py test
+      run: python demo_github_actions/manage.py test
 
   run-server:
     runs-on: ubuntu-latest
@@ -44,4 +44,4 @@ jobs:
         pip install -r demo_github_actions/requirements.txt
 
     - name: Start Django server
-      run: python manage.py runserver
+      run: python demo_github_actions/manage.py runserver
